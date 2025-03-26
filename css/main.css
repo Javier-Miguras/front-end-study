@@ -106,18 +106,57 @@ main .principal {
     font-size: 14px;
 }
 
-.cards .cards-title {
+section .title {
     font-size: 24px;
     margin-bottom: 60px;
 }
 
-.cards-title h2 {
-    margin: 0;
-}
-
-.cards-title hr {
+section .title hr {
     margin: 0;
     height: 3px;
     background-color: #00bbc2;
     border: none;
 }
+
+section .title h2 {
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.about-content .about-text {
+    color: rgb(82, 82, 82);
+}
+
+.about-content .about-img img {
+    width: 100%;
+}
+
+.clients-content {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 100%;
+    gap: 20px;
+}
+
+.clients-content .client-card {
+    text-align: center;
+    border: solid rgb(199, 199, 199) 1px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.client-card img {
+    width: 100%;
+}
+
+
